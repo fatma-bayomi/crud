@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>Document</title>
+    <link rel="styleSheet" href="style.css">
+    <link rel="styleSheet" href="bootstrap.min.css">
+
+</head>
+<body>
+    <div class="container">
+      <div class="header">
+<h1 class="d-flex justify-content-center text-align-center">Crud</h1>
+<p>product managment system</p>
+</div>
+<div class="form"> 
+   <div class="container d-flex justify-content-center align-items-center">
+    <input class="form-control" type="text" placeholder="productName" id="title">
+    <input  class="form-control" type="number" placeholder="productPrice" id="price">
+    <input  class="form-control" type="number" placeholder="productQuantity" id="quantity">
+    <input  class="form-control" type="text" placeholder="productCategory" id="category">
+    <button class="btn Create" id="create">Create</button>
+    <div class="sbtn">
+    <input onkeyup=" searchData(this.value)" class="form-control me-2" id="search" type="search" placeholder="Search" aria-label="Search">
+    <!-- <button onclick="getSearchMode(this.id)" class="btn btn-outline search" type="submit" id="searchbtn">Search</button> -->
+  </div>
+</div>
+</div>
+<div id="deleteAll">
+
+</div>
+<table>
+    <thead>
+      <tr>
+        <th>productName</th>
+        <th>productPrice</th>
+        <th>productQuantity</th>
+        <th>productCategory</th>
+        <th>update</th>
+        <th>delete</th>
+      </tr>
+    </thead>
+    <tbody id="tbody">
+      <!-- <tr>
+        <td>product1</td>
+        <td>100</td>
+        <td>10</td>
+        <td>category1</td>
+     
+      <td> <button  class="btn update">update</button></td> 
+     <td> <button  class="btn delete"> delete</button></td>
+      </tr>
+      <tr>
+        <td>product2</td>
+        <td>100</td>
+        <td>10</td>
+        <td>category1</td>
+     
+      <td> <button class="btn update">update</button></td> 
+     <td> <button  class="btn delete"> delete</button></td>
+      </tr>
+      <tr>
+        <td>product3</td>
+        <td>100</td>
+        <td>10</td>
+        <td>category1</td>
+     
+      <td> <button  class="btn update">update</button></td> 
+     <td> <button  class="btn delete"> delete</button></td>
+      </tr> -->
+    </tbody>
+  </table>
+
+</div>
+    <script src="main.js"></script>
+</body>
+</html>

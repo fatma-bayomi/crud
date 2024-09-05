@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    flex-direction: column;
+    gap:1.2rem ;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.btn{
+    background-color:	#198754!important;
+    color: #fff!important;
+    transition: 0.5s;
+  
+}
+.Create:hover{
+letter-spacing: 1px;
+background-color: #116d42 !important;
+}
+
+input{
+    width: 50% !important;
+    border-radius: 10px;
+   background-color:    white !important;
+  
+   
+}
+input:focus{
+  transform: scale(1.1);
+}
+body{
+    background-color:   #010210e8 !important;
+    color: #fff!important;
+    font-family: system-ui !important;
+}
+.form{
+   
+    width: 100%;
+    justify-self: center !important;
+    align-self: center !important;
+    display: flex;
+  
+    padding-top: 20px;
+    padding-bottom: 5px;
+
+    /* transition:  transform .2s; */
+}
+
+.search{
+    background-color: #6C757D !important;
+}
+.delete{
+    background-color:#DC3545 !important;
+}
+
+.header{
+    text-transform: uppercase;
+}
+.sbtn{
+    width: 40%;
+display: flex;
+flex-direction: row;
+/* justify-content: space-between; */
+justify-content: center;
+gap: 1.2rem;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+
+}
+table th{
+    text-transform: uppercase;
+}
+th,td{
+    padding: 5px;
+}
+.update{
+    background-color :#FFC107 !important ;
+}
+#deleteAll button{
+    background-color: #DC3545 !important;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+#search{
+    width: 100% !important;
+margin-top: 20px;
+margin-bottom: 20px;
+}
